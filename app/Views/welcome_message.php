@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Welcome to CodeIgniter 4!</title>
+    <title>Quéo căm to CodeIgniter 4!</title>
     <meta name="description" content="The small framework with powerful features">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/favicon.ico">
@@ -227,7 +227,115 @@
 
         <h1>Welcome to CodeIgniter <?= CodeIgniter\CodeIgniter::CI_VERSION ?></h1>
 
-        <h2>The small framework with powerful features</h2>
+        <h2>Brother brother brother
+Brother Brother Brother
+Wowy tới để gặp anh Minh
+Tìm một ly cà phê
+Xe anh để trước nhà
+Nhà nhỏ mà xe to
+Anh luôn sống như vầy sao
+Ảnh nói Wy đừng có lo
+Anh mới mua một căn kế bên
+Để cho chiếc xe mà anh mới có
+Anh Minh mời Wy zô thăm nhà nà
+Từ từ cho nó thong thả
+Giới thiệu Wy khắp các phòng
+Và kể về những nỗi lòng
+Rằng anh đã sống ra sao
+Trước anh ở nhà thuê
+Giờ anh mới mua được nhà
+Có cuộc sống mà nhiều người mê
+Nói thiệt hay anh giỡn chơi
+Yeah anh nói thiệt
+Anh theo đạo không nói xạo
+Lâu lâu anh nhây em đừng có quạo
+Wowy take it eazy
+Cuộc sống không có gì dễ
+Anh phải cố gắng rất nhiều
+Mà xe của anh không có chỗ để ey
+Thôi đi theo anh ra ngoài kia
+Mình đi cà phê
+Lên trên con xe bật nhạc mình nghe
+Tới chiều mình zề
+Nhấn lên chân ga trên cao tốc
+Anh chạy thật nhanh
+Về hướng Long Thành
+Trên con Mercedes màu xanh
+Mercedes màu xanh
+Trong cơn mưa lướt đi thật nhanh
+Mercedes màu xanh
+Không biết khi nào trời tạnh
+Mercedes màu xanh
+Đi về hướng Long Thành
+Mercedes màu xanh
+Bên trong mercedes màu xanh
+Mercedes màu xanh
+Trong cơn mưa lướt đi thật nhanh
+Mercedes màu xanh
+Không biết khi nào trời tạnh
+Mercedes màu xanh
+Đi về hướng Long Thành
+Mercedes màu xanh
+Bên trong Mercedes màu xanh
+Điều mà anh làm được đẩy vốn
+Công ty lên vài chục ngàn tỉ
+Nhưng mà anh không thể viết rap
+Bày tỏ nỗi lòng như Wowy
+Con tim anh chết lặng
+Bờ vai đang rất nặng
+Làm sao duy trì điều đó
+Trán anh tăng thêm vài vết nhăn
+Mọi người nhìn xe anh bên ngoài
+Mỗi khi anh đi vào bên trong
+Anh cười tươi rất thoải mái
+Chỉ để an ủi ở trong lòng
+Nhưng họ không hề biết
+Có những điều đáng tiếc
+Đôi khi cũng chỉ vì stress
+Có những đêm anh chết ở trong phòng
+Anh mua thêm Bugatti Pagani Lamborghini
+Danh tiếng anh tăng thêm vài bậc
+Nhưng nói em nghe nè Wowy
+Cái anh muốn không phải chiếc xe
+Đó là cách anh xử lý stress
+Công việc của anh áp lực
+And Thats why I do the best
+Anh đã chạy xa
+Xe anh lái không thể quay đầu
+Khác với người ta
+Điều đơn giản mà anh mong cầu
+Ngủ ngon yên giấc
+Với đứa trẻ đang ở trên lầu
+Hy vọng sáng mai tỉnh dậy
+Anh biết được mình đang ở đâu
+Thôi đi theo anh
+Ra ngoài kia mình đi cà phê
+Lên trên con xe bật nhạc
+Mình nghe tới chiều mình zề
+Nhấn lên chân ga trên cao tốc
+Anh chạy thật nhanh
+Về hướng Long Thành
+Trên con mercedes màu xanh
+Mercedes màu xanh
+Trong cơn mưa lướt đi thật nhanh
+Mercedes màu xanh
+Không biết khi nào trời tạnh
+Mercedes màu xanh
+Đi về hướng Long Thành
+Mercedes màu xanh
+Bên trong Mercedes màu xanh
+Mercedes màu xanh
+Trong cơn mưa lướt đi thật nhanh
+Mercedes màu xanh
+Không biết khi nào trời tạnh
+Mercedes màu xanh
+Đi về hướng Long Thành
+Mercedes màu xanh
+Bên trong Mercedes màu xanh
+Brother Brother Brother
+Brother Brother Brother
+Okay Okay Okay
+Okay Okay Okay/h2>
 
     </div>
 
