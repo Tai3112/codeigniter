@@ -226,8 +226,17 @@
     <div class="heroe">
 
         <h1>Welcome to CodeIgniter <?= CodeIgniter\CodeIgniter::CI_VERSION ?></h1>
+        <iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/vc4846ivVfU?autoplay=1&mute=1&si=rsl7_VWyBYP6aHXL" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+</iframe>
 
-        <h2>Brother brother brother
+            <br>
+        <a>Brother brother brother
 Brother Brother Brother
 Wowy tới để gặp anh Minh
 Tìm một ly cà phê
@@ -337,7 +346,7 @@ Brother Brother Brother
 Okay Okay Okay
 Okay Okay Okay/h2>
 
-    </div>
+    </a>
 
 </header>
 
