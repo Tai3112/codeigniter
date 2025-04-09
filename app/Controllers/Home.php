@@ -6,6 +6,8 @@ class Home extends BaseController
 {
     public function index(): string
     {
-        return view('welcome_message');
+        $data =[];
+        $data= $this -> giaodienClient($data);
+        return view('client/index',$data);
     }
 }
