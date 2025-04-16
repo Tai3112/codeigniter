@@ -6,15 +6,17 @@ class Home extends BaseController
 {
     public function index(): string
     {
-        $data =[];
-        $data= $this -> giaodienClient($data);
-        return view('client/index',$data);
+        $data = [];
+        $data = $this -> giaodienClient($data);
+        //$data = ['header','footer']
+        return view('client/index', $data);
     }
+
     public function restaurants(): string
     {
-        $data =[];
+        $data = [];
         $data = $this -> giaodienClient($data);
-        //$data =['header','footer']
-        return view('client/restaurants',$data);
+        //$data = ['header','footer']
+        return view('client/restaurants', $data);
     }
 }

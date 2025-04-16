@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="">
-    <base href="<?=base_url()?>">
+    <meta name="author" content="">      
+    <base href="<?= base_url()?>">
     <link rel="icon" href="#">
     <title>Chọn bàn</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -56,7 +54,7 @@
 
 <body>
     <!--header starts-->
-   <?=$header?>
+    <?=$header?>
     <div class="page-wrapper">
         <!-- top Links -->
         <div class="top-links">
@@ -122,13 +120,6 @@
                     <div class="col-xs-12 col-sm-7 col-md-7 col-lg-9">
                         <div class="bg-gray restaurant-entry">
                             <div class="row">
-                               
-                                <div class="table-alert info">
-                                    <strong>Lưu ý:</strong> Bạn đang ngồi tại . 
-                                    Nếu muốn đổi bàn, vui lòng sử dụng nút "Đổi bàn" trên thanh điều hướng.
-                                </div>
-                                
-                                
                                 
                                 <div class="col-xs-12 col-sm-6 col-md-4 food-item">
                                     <div class="food-item-wrap table-card">
@@ -140,15 +131,12 @@
                                             <h5><a href="" ></a></h5>
                                             <div class="product-name"></div>
                                             <div class="price-btn-block">
-                                                <span class="price">Số người hiện tại: /20</span>
-                                                
+                                                <span class="price">Số người hiện tại: 0/20</span>
                                                 <a href="" class="btn theme-btn-dash pull-right">Chọn bàn</a>
-                                              
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                
                             </div>
                         </div>
                     </div>
@@ -156,9 +144,8 @@
             </div>
         </div>
     </section>
-    
-<?=$footer?>
     </div>
+    <?=$footer?>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <script src="js/jquery.min.js"></script>
@@ -170,12 +157,7 @@
     <script src="js/headroom.js"></script>
     <script src="js/foodpicky.min.js"></script>
     <script>
-    function alertCurrentTable() {
-        alert('Bạn đang ngồi tại . Vui lòng sử dụng nút "Đổi bàn" trên thanh điều hướng nếu muốn đổi bàn khác.');
-    }
     </script>
-
 </body>
 
 </html>
-

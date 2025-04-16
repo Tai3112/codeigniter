@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,10 +8,10 @@
         content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
-    <meta name="author" content="">
-    <base href="<?=base_url()?>">
+    <meta name="author" content="">    
+    <base href="<?= base_url()?>">
     <link rel="icon" href="#">
-    <title>TH Team</title>  
+    <title>TH Team</title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -57,7 +56,7 @@
 
     <!--header starts-->
     <?=$header?>
-
+<!-- ?php include("header.php");  ? -->
     <!-- banner part starts -->
     <section class="how-it-works">
         <div class="container">
@@ -130,48 +129,15 @@
    
     <section class="popular">
         <div class="container">
-           
-            <div class="table-alert info">
-                <strong>Lưu ý:</strong> Bạn đang ngồi tại 
-                Nếu muốn đổi bàn, vui lòng sử dụng nút "Đổi bàn" trên thanh điều hướng.
-            </div>
-           
             
-            <div class="title text-xs-center m-b-30">
-                <h2>Danh sách bàn</h2>
-                <p class="lead">Chọn bàn phù hợp với bạn</p>
-            </div>
-            
-            <div class="row">
-              
-                <div class="col-xs-12 col-sm-6 col-md-4 food-item">
-                    <div class="food-item-wrap table-card">
-                        <div class="table-status "></div>
-                        <div class="figure-wrap bg-image">
-                            <img src="admin/Res_img/" alt="" style="width: 100%; height: 220px; object-fit: cover;">
-                        </div>
-                        <div class="content">
-                            <h5><a href="" ></a></h5>
-                            <div class="product-name"></div>
-                            <div class="price-btn-block">
-                                <span class="price">Số người hiện tại: /20</span>
-                                
-                                <a href="" class="btn theme-btn-dash pull-right">Chọn bàn</a>
-                               
-                            </div>
-                        </div>
-                    </div>
-                </div>
-               
-            </div>
         </div>
     </section>
     <!-- Popular block ends -->
     <!-- How it works block starts -->
     
-
-    <?=$footer?>
-   
+        <?=$footer?>
+    
+    <!-- ?php include 'footer.php' ? -->
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <script src="js/jquery.min.js"></script>
@@ -184,7 +150,7 @@
     <script src="js/foodpicky.min.js"></script>
     <script>
     function alertCurrentTable() {
-        alert('Bạn đang ngồi tại . Vui lòng sử dụng nút "Đổi bàn" trên thanh điều hướng nếu muốn đổi bàn khác.');
+        alert('Bạn đang ngồi tại <?php echo isset($current_table) ? $current_table['title'] : ''; ?>. Vui lòng sử dụng nút "Đổi bàn" trên thanh điều hướng nếu muốn đổi bàn khác.');
     }
     </script>
 </body>

@@ -53,7 +53,8 @@ class Toolbar extends BaseConfig
      * avoid high memory usage when there are lots of data passed to the view.
      */
     public bool $collectVarData = true;
-
+    
+    public $enabled = true;
     /**
      * --------------------------------------------------------------------------
      * Max History
