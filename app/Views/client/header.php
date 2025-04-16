@@ -10,7 +10,7 @@
                 <ul class="nav navbar-nav">
                     <li class="nav-item"> <a class="nav-link active" href="index.php">Trang Chủ <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Chọn bàn <span class="sr-only"></span></a> </li>
+                    <li class="nav-item"> <a class="nav-link active" href="restaurants">Chọn bàn <span class="sr-only"></span></a> </li>     
                     
                 </ul>
             </div>
