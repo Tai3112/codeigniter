@@ -63,3 +63,19 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
  8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 10 SYSTEMPATH\rewrite.php(44): require_once('E:\\github\\codeigniter\\public\\index.php')
+ERROR - 2025-04-18 03:07:26 --> mysqli_sql_exception: Invalid default value for 'date' in E:\github\codeigniter\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 E:\github\codeigniter\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `a...', 0)
+#1 E:\github\codeigniter\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 E:\github\codeigniter\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 E:\github\codeigniter\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 E:\github\codeigniter\app\Database\Migrations\2025-04-18-025858_CreateAdminTable.php(42): CodeIgniter\Database\Forge->createTable('admin')
+#5 E:\github\codeigniter\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreateAdminTable->up()
+#6 E:\github\codeigniter\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\github\codeigniter\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\github\codeigniter\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\github\codeigniter\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\github\codeigniter\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 E:\github\codeigniter\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 E:\github\codeigniter\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
