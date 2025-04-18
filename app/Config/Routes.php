@@ -12,3 +12,6 @@ $routes->get('/', 'Home::index');
 //nhánh main -> sửa nhánh main
 ///asdasdsad
 $routes->get('/res', 'Home::restaurants');
+$routes->group("admin",function($routes){
+    $routes->get('login', 'admin\Login::index');
+});
