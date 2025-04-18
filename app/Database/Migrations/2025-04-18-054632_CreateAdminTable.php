@@ -48,3 +48,4 @@ class CreateAdminTable extends Migration
         $this->forge->dropTable('admin');
     }
 }
+

@@ -414,3 +414,251 @@ Stack trace:
 #11 E:\github\codeigniter\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
 #12 E:\github\codeigniter\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
 #13 {main}
+ERROR - 2025-04-18 05:15:40 --> mysqli_sql_exception: Table 'admin' already exists in E:\github\codeigniter\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 E:\github\codeigniter\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `a...', 0)
+#1 E:\github\codeigniter\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 E:\github\codeigniter\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 E:\github\codeigniter\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 E:\github\codeigniter\app\Database\Migrations\2025-04-18-025845_CreateAdminTable.php(41): CodeIgniter\Database\Forge->createTable('admin')
+#5 E:\github\codeigniter\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreateAdminTable->up()
+#6 E:\github\codeigniter\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\github\codeigniter\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\github\codeigniter\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\github\codeigniter\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\github\codeigniter\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 E:\github\codeigniter\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 E:\github\codeigniter\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-18 05:17:28 --> mysqli_sql_exception: Table 'admin' already exists in E:\github\codeigniter\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 E:\github\codeigniter\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `a...', 0)
+#1 E:\github\codeigniter\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 E:\github\codeigniter\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 E:\github\codeigniter\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 E:\github\codeigniter\app\Database\Migrations\2025-04-18-025845_CreateAdminTable.php(41): CodeIgniter\Database\Forge->createTable('admin')
+#5 E:\github\codeigniter\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreateAdminTable->up()
+#6 E:\github\codeigniter\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\github\codeigniter\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\github\codeigniter\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\github\codeigniter\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\github\codeigniter\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 E:\github\codeigniter\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 E:\github\codeigniter\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-18 05:17:51 --> mysqli_sql_exception: Table 'admin' already exists in E:\github\codeigniter\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 E:\github\codeigniter\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `a...', 0)
+#1 E:\github\codeigniter\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 E:\github\codeigniter\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 E:\github\codeigniter\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 E:\github\codeigniter\app\Database\Migrations\2025-04-18-025845_CreateAdminTable.php(41): CodeIgniter\Database\Forge->createTable('admin')
+#5 E:\github\codeigniter\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreateAdminTable->up()
+#6 E:\github\codeigniter\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\github\codeigniter\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\github\codeigniter\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\github\codeigniter\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\github\codeigniter\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 E:\github\codeigniter\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 E:\github\codeigniter\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-18 05:18:08 --> mysqli_sql_exception: Table 'admin' already exists in E:\github\codeigniter\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 E:\github\codeigniter\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `a...', 0)
+#1 E:\github\codeigniter\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 E:\github\codeigniter\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 E:\github\codeigniter\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 E:\github\codeigniter\app\Database\Migrations\2025-04-18-025845_CreateAdminTable.php(41): CodeIgniter\Database\Forge->createTable('admin')
+#5 E:\github\codeigniter\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreateAdminTable->up()
+#6 E:\github\codeigniter\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\github\codeigniter\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\github\codeigniter\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\github\codeigniter\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\github\codeigniter\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 E:\github\codeigniter\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 E:\github\codeigniter\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-18 05:18:38 --> mysqli_sql_exception: Table 'admin' already exists in E:\github\codeigniter\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 E:\github\codeigniter\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `a...', 0)
+#1 E:\github\codeigniter\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 E:\github\codeigniter\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 E:\github\codeigniter\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 E:\github\codeigniter\app\Database\Migrations\2025-04-18-025845_CreateAdminTable.php(41): CodeIgniter\Database\Forge->createTable('admin')
+#5 E:\github\codeigniter\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreateAdminTable->up()
+#6 E:\github\codeigniter\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\github\codeigniter\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\github\codeigniter\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\github\codeigniter\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\github\codeigniter\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 E:\github\codeigniter\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 E:\github\codeigniter\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-18 05:21:46 --> mysqli_sql_exception: Table 'admin' already exists in E:\github\codeigniter\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 E:\github\codeigniter\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `a...', 0)
+#1 E:\github\codeigniter\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 E:\github\codeigniter\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 E:\github\codeigniter\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 E:\github\codeigniter\app\Database\Migrations\2025-04-18-025845_CreateAdminTable.php(41): CodeIgniter\Database\Forge->createTable('admin')
+#5 E:\github\codeigniter\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreateAdminTable->up()
+#6 E:\github\codeigniter\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\github\codeigniter\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\github\codeigniter\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\github\codeigniter\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\github\codeigniter\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 E:\github\codeigniter\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 E:\github\codeigniter\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-18 05:27:08 --> mysqli_sql_exception: Table 'admin' already exists in E:\github\codeigniter\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 E:\github\codeigniter\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `a...', 0)
+#1 E:\github\codeigniter\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 E:\github\codeigniter\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 E:\github\codeigniter\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 E:\github\codeigniter\app\Database\Migrations\2025-04-18-025845_CreateAdminTable.php(41): CodeIgniter\Database\Forge->createTable('admin')
+#5 E:\github\codeigniter\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreateAdminTable->up()
+#6 E:\github\codeigniter\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\github\codeigniter\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\github\codeigniter\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\github\codeigniter\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\github\codeigniter\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 E:\github\codeigniter\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 E:\github\codeigniter\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-18 05:28:13 --> mysqli_sql_exception: Table 'admin' already exists in E:\github\codeigniter\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 E:\github\codeigniter\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `a...', 0)
+#1 E:\github\codeigniter\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 E:\github\codeigniter\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 E:\github\codeigniter\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 E:\github\codeigniter\app\Database\Migrations\2025-04-18-025845_CreateAdminTable.php(41): CodeIgniter\Database\Forge->createTable('admin')
+#5 E:\github\codeigniter\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreateAdminTable->up()
+#6 E:\github\codeigniter\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\github\codeigniter\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\github\codeigniter\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\github\codeigniter\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\github\codeigniter\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 E:\github\codeigniter\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 E:\github\codeigniter\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-18 05:28:27 --> mysqli_sql_exception: Table 'admin' already exists in E:\github\codeigniter\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 E:\github\codeigniter\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `a...', 0)
+#1 E:\github\codeigniter\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 E:\github\codeigniter\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 E:\github\codeigniter\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 E:\github\codeigniter\app\Database\Migrations\2025-04-18-025845_CreateAdminTable.php(41): CodeIgniter\Database\Forge->createTable('admin')
+#5 E:\github\codeigniter\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreateAdminTable->up()
+#6 E:\github\codeigniter\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\github\codeigniter\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\github\codeigniter\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\github\codeigniter\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\github\codeigniter\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 E:\github\codeigniter\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 E:\github\codeigniter\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-18 05:28:33 --> mysqli_sql_exception: Table 'admin' already exists in E:\github\codeigniter\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 E:\github\codeigniter\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `a...', 0)
+#1 E:\github\codeigniter\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 E:\github\codeigniter\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 E:\github\codeigniter\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 E:\github\codeigniter\app\Database\Migrations\2025-04-18-025845_CreateAdminTable.php(41): CodeIgniter\Database\Forge->createTable('admin')
+#5 E:\github\codeigniter\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreateAdminTable->up()
+#6 E:\github\codeigniter\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\github\codeigniter\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\github\codeigniter\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\github\codeigniter\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\github\codeigniter\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 E:\github\codeigniter\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 E:\github\codeigniter\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-04-18 05:47:23 --> ErrorException: Class App\Database\Migrations\CreateAdminTable contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Database\Migration::down)
+[Method: CLI, Route: migrate]
+in APPPATH\Database\Migrations\2025-04-18-054632_CreateAdminTable.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-18 05:47:38 --> ErrorException: Class App\Database\Migrations\CreateAdminTable contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Database\Migration::down)
+[Method: CLI, Route: migrate]
+in APPPATH\Database\Migrations\2025-04-18-054632_CreateAdminTable.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2025-04-18 05:52:04 --> mysqli_sql_exception: Invalid default value for 'date' in E:\github\codeigniter\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 E:\github\codeigniter\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `r...', 0)
+#1 E:\github\codeigniter\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 E:\github\codeigniter\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 E:\github\codeigniter\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 E:\github\codeigniter\app\Database\Migrations\2025-04-18-055137_CreateRestaurantTable.php(67): CodeIgniter\Database\Forge->createTable('restaurant')
+#5 E:\github\codeigniter\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreateRestaurantTable->up()
+#6 E:\github\codeigniter\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\github\codeigniter\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\github\codeigniter\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\github\codeigniter\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\github\codeigniter\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 E:\github\codeigniter\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 E:\github\codeigniter\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-18 06:00:30 --> mysqli_sql_exception: Invalid default value for 'date' in E:\github\codeigniter\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 E:\github\codeigniter\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `r...', 0)
+#1 E:\github\codeigniter\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 E:\github\codeigniter\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 E:\github\codeigniter\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 E:\github\codeigniter\app\Database\Migrations\2025-04-18-060005_CreateResCategoryTable.php(36): CodeIgniter\Database\Forge->createTable('res_category')
+#5 E:\github\codeigniter\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreateResCategoryTable->up()
+#6 E:\github\codeigniter\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\github\codeigniter\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\github\codeigniter\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\github\codeigniter\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\github\codeigniter\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 E:\github\codeigniter\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 E:\github\codeigniter\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-18 06:02:44 --> mysqli_sql_exception: Invalid default value for 'date' in E:\github\codeigniter\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 E:\github\codeigniter\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `u...', 0)
+#1 E:\github\codeigniter\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 E:\github\codeigniter\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 E:\github\codeigniter\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 E:\github\codeigniter\app\Database\Migrations\2025-04-18-060219_CreateUsersOrdersTable.php(70): CodeIgniter\Database\Forge->createTable('users_orders')
+#5 E:\github\codeigniter\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreateUsersOrdersTable->up()
+#6 E:\github\codeigniter\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\github\codeigniter\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\github\codeigniter\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\github\codeigniter\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\github\codeigniter\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 E:\github\codeigniter\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 E:\github\codeigniter\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-18 06:02:55 --> mysqli_sql_exception: Invalid default value for 'date' in E:\github\codeigniter\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 E:\github\codeigniter\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `u...', 0)
+#1 E:\github\codeigniter\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 E:\github\codeigniter\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 E:\github\codeigniter\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 E:\github\codeigniter\app\Database\Migrations\2025-04-18-060219_CreateUsersOrdersTable.php(70): CodeIgniter\Database\Forge->createTable('users_orders')
+#5 E:\github\codeigniter\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreateUsersOrdersTable->up()
+#6 E:\github\codeigniter\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\github\codeigniter\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\github\codeigniter\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\github\codeigniter\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\github\codeigniter\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 E:\github\codeigniter\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 E:\github\codeigniter\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-18 06:03:10 --> mysqli_sql_exception: Invalid default value for 'date' in E:\github\codeigniter\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 E:\github\codeigniter\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `u...', 0)
+#1 E:\github\codeigniter\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 E:\github\codeigniter\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 E:\github\codeigniter\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 E:\github\codeigniter\app\Database\Migrations\2025-04-18-060219_CreateUsersOrdersTable.php(70): CodeIgniter\Database\Forge->createTable('users_orders')
+#5 E:\github\codeigniter\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreateUsersOrdersTable->up()
+#6 E:\github\codeigniter\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 E:\github\codeigniter\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 E:\github\codeigniter\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 E:\github\codeigniter\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 E:\github\codeigniter\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 E:\github\codeigniter\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 E:\github\codeigniter\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
