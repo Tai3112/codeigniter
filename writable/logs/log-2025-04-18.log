@@ -1,0 +1,65 @@
+CRITICAL - 2025-04-18 01:48:16 --> ErrorException: Cannot redeclare App\Controllers\BaseController::giaodienClient()
+[Method: GET, Route: admin/login]
+in APPPATH\Controllers\BaseController.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-18 01:48:17 --> ErrorException: Cannot redeclare App\Controllers\BaseController::giaodienClient()
+[Method: GET, Route: admin/login]
+in APPPATH\Controllers\BaseController.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-18 01:48:18 --> ErrorException: Cannot redeclare App\Controllers\BaseController::giaodienClient()
+[Method: GET, Route: admin/login]
+in APPPATH\Controllers\BaseController.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-18 01:48:25 --> ErrorException: Cannot redeclare App\Controllers\BaseController::giaodienClient()
+[Method: GET, Route: admin/login]
+in APPPATH\Controllers\BaseController.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-18 01:48:25 --> ErrorException: Cannot redeclare App\Controllers\BaseController::giaodienClient()
+[Method: GET, Route: admin/login]
+in APPPATH\Controllers\BaseController.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-18 01:51:30 --> ErrorException: Cannot redeclare App\Controllers\BaseController::giaodienClient()
+[Method: GET, Route: admin/login]
+in APPPATH\Controllers\BaseController.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-18 01:51:42 --> ErrorException: Cannot redeclare App\Controllers\BaseController::giaodienClient()
+[Method: GET, Route: /]
+in APPPATH\Controllers\BaseController.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-18 01:51:43 --> ErrorException: Cannot redeclare App\Controllers\BaseController::giaodienClient()
+[Method: GET, Route: /]
+in APPPATH\Controllers\BaseController.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-18 01:52:08 --> ErrorException: Cannot redeclare App\Controllers\BaseController::giaodienClient()
+[Method: GET, Route: /]
+in APPPATH\Controllers\BaseController.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-18 01:52:17 --> ErrorException: Cannot redeclare App\Controllers\BaseController::giaodienClient()
+[Method: GET, Route: /]
+in APPPATH\Controllers\BaseController.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-18 01:52:22 --> ErrorException: Cannot redeclare App\Controllers\BaseController::giaodienClient()
+[Method: GET, Route: admin/login]
+in APPPATH\Controllers\BaseController.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-18 02:00:50 --> ErrorException: Cannot redeclare App\Controllers\BaseController::giaodienClient()
+[Method: GET, Route: admin/login]
+in APPPATH\Controllers\BaseController.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-18 02:01:04 --> ErrorException: Cannot redeclare App\Controllers\BaseController::giaodienClient()
+[Method: GET, Route: /]
+in APPPATH\Controllers\BaseController.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-18 02:07:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/dasboard.php"
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dasboard.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/dasboard', [], true)
+ 3 APPPATH\Controllers\admin\Dashboard.php(10): view('admin/dasboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\admin\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(55): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\github\\codeigniter\\public\\index.php')

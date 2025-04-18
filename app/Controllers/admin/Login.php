@@ -7,4 +7,5 @@ class Login extends BaseController
     {
         return view('admin/index');
     }
+   
 }
