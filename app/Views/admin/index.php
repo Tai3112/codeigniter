@@ -29,7 +29,7 @@
 	<div class="form">
 		<div class="thumbnail"><img src="images/manager.png" /></div>
 		<div class="form-dangky">
-			<form class="register-form" action="index.php" method="post">
+			<form class="register-form" action="create" method="post">
 				<input type="text" placeholder="username" name="cr_user" />
 				<input type="text" placeholder="email address" name="cr_email" />
 				<input type="password" placeholder="password" name="cr_pass" />
