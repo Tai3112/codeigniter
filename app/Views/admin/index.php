@@ -34,8 +34,7 @@
 				<input type="text" placeholder="email address" name="cr_email" />
 				<input type="password" placeholder="password" name="cr_pass" />
 				<input type="password" placeholder="Confirm password" name="cr_cpass" />
-				<input type="password" placeholder="Unique-Code" name="code" />
-				<input type="submit" name="submit1" value="Đăng ký" />			
+				<input type="submit"  value="Đăng ký" />			
 			</form>
 			<p class="message">Đã có tài khoản <button onclick="sign_in()">Đăng nhập</button></p>
 		</div>
@@ -45,7 +44,7 @@
 			<form class="login-form" action="index.php" method="post">
 				<input type="text" placeholder="username" name="username" />
 				<input type="password" placeholder="password" name="password" />
-				<input type="submit" name="submit" value="Đăng nhập" />
+				<input type="submit"  value="Đăng nhập" />
 				
 			</form>
 			<p class="message">Chưa đăng ký? <button onclick="create_account()">Đăng ký</button>

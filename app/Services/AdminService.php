@@ -33,6 +33,7 @@ class AdminService extends BaseService
             try {
                 $dataSave = $requestData->getPost();
                 unset($dataSave['repassword']);
+                unset($dataSave['submit1']);
                 $dataSave['password'] = password_hash($dataSave['password'], PASSWORD_BCRYPT);
                 $this->admins->save($dataSave);
                 return [
@@ -56,7 +57,7 @@ class AdminService extends BaseService
         $rule = [
             'email'=>'required|valid_email',
             'username'=>'required|max_length[30]|min_length[3]',
-            'password'=>'required|max_length[255]|min_length[11]',
+            'password'=>'required|max_length[255]|min_length[8]',
             'repassword'=>'required|matches[password]',
         ];
         $message = [
