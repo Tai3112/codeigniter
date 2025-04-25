@@ -16,4 +16,5 @@ $routes->group("admin",function($routes){
     $routes->get('login', 'admin\Login::index');
     $routes->get('dashboard', 'admin\Dashboard::index');
     $routes->post('create', 'admin\Login::create');
+    $routes->post('login', 'admin\Login::login');
 });
