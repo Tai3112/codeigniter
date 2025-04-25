@@ -57,7 +57,7 @@ class AdminService extends BaseService
         $rule = [
             'email'=>'required|valid_email',
             'username'=>'required|max_length[30]|min_length[3]',
-            'password'=>'required|max_length[255]|min_length[8]',
+            'password'=>'required|max_length[255]|min_length[3]',
             'repassword'=>'required|matches[password]',
         ];
         $message = [
