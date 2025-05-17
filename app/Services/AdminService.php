@@ -86,37 +86,39 @@ class AdminService extends BaseService
     }
 
     public function kiemtraLogin($requestData){
-        $validate = $this->validationThemAdmin($requestData);
+        $validate = $this->validationLogin($requestData);
         if($validate->getErrors()){
             
             return [
-                'status'=> 'ERROR',
-                'messageCode'=>'MESSAGE_ERROR',
+                'status'=> 'LOI',
+                'messageCode'=>'LOI',
                 'messages'=> $validate->getErrors()
             ];
         }else{
             try {
                 $data = $requestData->getPost();
-
-                $user = $this -> admins -> where ('username', $data ['username']) -> first();
-         
+                //$data = ['username'=>'abc','password'=>'1234']
+                $user = $this->admins->where('username',$data['username'])->first();
+                //SELECT top 1 FROM admin WHERE username = 
+                //tìm kiếm trong bảng admin theo username, lấy 1 giá trị
                 if(!$user){
-                    return[
+                    return [
                         'status'=> 'LOI',
                         'messageCode'=>'LOI',
                         'messages'=> ['khongtontai'=>'Tài khoản không tồn tại']
                     ];
                 }
-                if(password_verify($data['password'],$user['password'])){
+                if(!password_verify($data['password'], $user['password'])){
                     return [
                         'status'=> 'LOI',
                         'messageCode'=>'LOI',
                         'messages'=> ['matkhauloi'=>'Mật khẩu không khớp']
-                    ];
+                    ];       
                 }
                 $session = session();
-                unset($user['password']);
-                $session->set('user_login',$user);
+                unset($user['password']);//loại bỏ giá trị password
+                $session->set('user_login', $user);
+                //gán biến 'user_login' = biến $user = ['username','email','date']
                 return [
                     'status'=> 'OK',
                     'messageCode'=>'OK',
@@ -136,13 +138,10 @@ class AdminService extends BaseService
         //1 mảng trong php
         //$rule = []
         $rule = [
-            
             'username'=>'required|max_length[30]|min_length[3]',
             'password'=>'required|max_length[255]|min_length[3]',
-            
         ];
         $message = [
-           
             'username'=>[
                 'required'=>'Tên tài khoản không được để trống',
                 'max_length'=>'Tên tài khoản tối đa {param} ký tự',
@@ -152,16 +151,11 @@ class AdminService extends BaseService
                 'required'=>'Mật khẩu không được để trống',
                 'max_length'=>'Mật khẩu tối đa {param} ký tự',
                 'min_length'=>'Mật khẩu ít nhất {param} ký tự'
-            ],
-            
+            ]
         ];
         $this->validation->setRules($rule,$message);
         //validation = [[rule],[message]]
         $this->validation->withRequest($requestData)->run();
         return $this->validation;
     }
-
-
-
-    
 }

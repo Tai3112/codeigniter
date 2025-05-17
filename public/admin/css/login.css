@@ -57,7 +57,7 @@
   transition: all 0.3 ease;
   cursor: pointer;
 }
-.form button {
+.form .button {
   outline: 0;
   background: #5c4ac7;
   width: 100%;
