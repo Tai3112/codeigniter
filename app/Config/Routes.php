@@ -12,9 +12,11 @@ $routes->get('/', 'Home::index');
 //nhánh main -> sửa nhánh main
 ///asdasdsad
 $routes->get('/res', 'Home::restaurants');
-$routes->group("admin",function($routes){
+//khi đi tới trang admin => gọi filter
+$routes->group("admin",['filter'=>'adminfilter'],function($routes){
     $routes->get('login', 'admin\Login::index');
     $routes->get('dashboard', 'admin\Dashboard::index');
     $routes->post('create', 'admin\Login::create');
-    $routes->post('login', 'admin\Login::login');
+    $routes->post('login', 'admin\Login::login');    
+    $routes->get('logout', 'admin\Login::logout');
 });

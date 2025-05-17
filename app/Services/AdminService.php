@@ -117,7 +117,7 @@ class AdminService extends BaseService
                 }
                 $session = session();
                 unset($user['password']);//loại bỏ giá trị password
-                $session->set('user_login', $user);
+                $session->set('user_login', $user);//gán giá trị user vào biến user_login
                 //gán biến 'user_login' = biến $user = ['username','email','date']
                 return [
                     'status'=> 'OK',

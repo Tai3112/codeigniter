@@ -33,7 +33,8 @@ class Filters extends BaseFilters
         'cors'          => Cors::class,
         'forcehttps'    => ForceHTTPS::class,
         'pagecache'     => PageCache::class,
-        'performance'   => PerformanceMetrics::class,
+        'performance'   => PerformanceMetrics::class,        
+        'adminfilter' => \App\Filters\AuthFilter::class,//gán class AuthFilter vào biến adminfilter
     ];
 
     /**
