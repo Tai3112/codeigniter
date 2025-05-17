@@ -19,4 +19,5 @@ $routes->group("admin",['filter'=>'adminfilter'],function($routes){
     $routes->post('create', 'admin\Login::create');
     $routes->post('login', 'admin\Login::login');    
     $routes->get('logout', 'admin\Login::logout');
+    $routes->get('foods', 'admin\Foods::index');
 });
