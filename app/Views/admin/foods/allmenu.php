@@ -38,7 +38,6 @@
                                         cellspacing="0" width="100%">
                                         <thead>
                                             <tr>
-                                                <th>Nhà Hàng</th>
                                                 <th>Món Ăn</th>
                                                 <th>Mô tả</th>
                                                 <th>Giá Tiền</th>
@@ -47,9 +46,26 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                           
+                                           <?php foreach($dishes as $d):?>
+                                                <tr>
+                                                    <td><?=$d['title'] ?></td>
+                                                    <td><?=$d['slogan'] ?></td>
+                                                    <td><?=$d['price'] ?></td>
+                                                    <td>
+                                                        <img src="<?= base_url()?>uploads/<?=$d['img']?>" width="80px" height="80px"/>
+                                                    </td>
+                                                    <td>
+                                                        <a href="/admin/foods/edit/<?=$d['d_id']?>" class="btn btn-info btn-flat btn-addon btn-sm m-b-10 m-l-5"><i class="fa fa-edit"></i></a> 
+                                                        <a href="<?= base_url()?>/admin/foods/delete/<?=$d['d_id']?>" class="btn btn-danger btn-flat btn-addon btn-xs m-b-10"><i class="fa fa-trash-o" style="font-size:16px"></i></a> 
+                                                    </td>
+                                                </tr>
+                                            <?php endforeach ?>
                                         </tbody>
                                     </table>
+                                    
+                                    <!-- <div class="rows">
+                                        <?= $pager -> links('default', 'custom_pagination')?>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>

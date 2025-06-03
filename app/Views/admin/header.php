@@ -65,7 +65,7 @@
                     <i class="fa fa-cutlery"></i><span>Quản lý món ăn</span></a>
                     <ul aria-expanded="false" class="collapse">
                         <li><a href="/admin/foods">Danh sách món</a></li>
-                        <li><a href="add_menu.php">Thêm món mới</a></li>
+                        <li><a href="/admin/foods/add">Thêm món mới</a></li>
                     </ul>
                 </li>
 
